@@ -1,0 +1,14 @@
+{
+  "name": "iban-check-core",
+  "version": "0.1.0",
+  "description": "Offline IBAN validation (ISO 13616): format, country length, BBAN structure and mod-97 check. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/iban.test.js",
+    "demo": "node bin/iban-check.mjs --assert"
+  }
+}
